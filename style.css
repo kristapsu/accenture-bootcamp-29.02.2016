@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+}
+
+.image {
+  height: 100px;
+}
+
+.item, .image {
+  height: 200px;
+}
+
+.row td {
+  background: #963;
+  }
+
+// Pseudo classes
+
+a:link {
+  color: #369;
+}
+
+a:visited {
+  background: #369;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  color: blue;
+}
+
+.block::before {
+  content: '@';
+}
+
+// syling counter information
+.block::after {
+  content: attr(data-count);
+}
